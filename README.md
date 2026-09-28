@@ -50,6 +50,13 @@ The server runs on:
 http://localhost:5000
 ```
 
+## Swagger Documentation
+
+Once the server is running, you can access the interactive Swagger UI and test all endpoints directly in the browser:
+
+- **Swagger UI**: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+- **OpenAPI JSON Spec**: [http://localhost:5000/api-docs.json](http://localhost:5000/api-docs.json)
+
 ## Required npm Packages
 
 - express
@@ -59,6 +66,8 @@ http://localhost:5000
 - helmet
 - joi
 - express-async-errors
+- swagger-ui-express
+- swagger-jsdoc
 
 ## Environment Variables
 
